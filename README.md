@@ -1,23 +1,28 @@
 ## Homework: Modules
 
-- your task is to make a module  (`Car.js`) that defines a car class – with both properties and methods (functions) – and exports it as a module.
+- Make a module (`Car.js`) that defines a `Car` class.
+- This class will have both properties and methods (functions)
+- It will be exported as a module.
 
-In the `Car.js` file:
+### Car Class Specs:
 
-Users should be able to define the following properties of a new car:
-- color
+Users of the Car class should be able to specify the following properties when constructing new cars:
+- color (string)
 - convertible (boolean)
 
 Cars should automatically come with the following property:
 - speed (0, at first)
 
-Functions specs:
-- include accelerate and decelerate
-  - these should take one argument, the speed, and add or substract it the from the current speed
+Cars should come with two functions:
+- accelerate
+- decelerate
+- These should take one argument, a number, which is added or subtracted from the current speed
 
 Node modules:
 
-You will notice a package.json file listing specific packages (a.k.a node modules) required for testing this assignment. Node modules will be vital to this unit and future javascript projects. In this case, our modules add automated testing functionality to our project.
+You will notice a package.json file listing specific packages (a.k.a node modules) required for testing this assignment. 
+
+Node modules will be vital to this unit and future Javascript projects. In this case, our modules add automated testing functionality to our project.
 
 Run <code>npm install</code> to install packages listed in package.json. This will create a node_modules folder that your project will draw from.
 
