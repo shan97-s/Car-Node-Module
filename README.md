@@ -1,5 +1,8 @@
 ## Homework: Modules
 
+DO NOT ALTER THE TEST FILE. Continue coding in the Car.js file until all tests pass. Index.js not included. 
+
+
 - Make a module (`Car.js`) that defines a `Car` class.
 - This class will have both properties and methods (functions)
 - It will be exported as a module.
